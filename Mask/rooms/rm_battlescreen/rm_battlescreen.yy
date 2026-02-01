@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_battlescreen",
-  "creationCodeFile":"",
+  "creationCodeFile":"rooms/rm_battlescreen/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
@@ -18,6 +18,9 @@
     {"name":"inst_2732B8C5","path":"rooms/rm_battlescreen/rm_battlescreen.yy",},
     {"name":"inst_2536D374","path":"rooms/rm_battlescreen/rm_battlescreen.yy",},
     {"name":"inst_476A1067","path":"rooms/rm_battlescreen/rm_battlescreen.yy",},
+    {"name":"inst_4355DF4C","path":"rooms/rm_battlescreen/rm_battlescreen.yy",},
+    {"name":"inst_4F77D00","path":"rooms/rm_battlescreen/rm_battlescreen.yy",},
+    {"name":"inst_7E9CCEF8","path":"rooms/rm_battlescreen/rm_battlescreen.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,6 +37,9 @@
         {"$GMRInstance":"v4","%Name":"inst_2732B8C5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2732B8C5","objectId":{"name":"obj_player_defense_b_value","path":"objects/obj_player_defense_b_value/obj_player_defense_b_value.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_2536D374","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2536D374","objectId":{"name":"obj_button_gun","path":"objects/obj_button_gun/obj_button_gun.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_476A1067","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_476A1067","objectId":{"name":"obj_button_sword","path":"objects/obj_button_sword/obj_button_sword.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":704.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4355DF4C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4355DF4C","objectId":{"name":"obj_control_battlescreen","path":"objects/obj_control_battlescreen/obj_control_battlescreen.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":32.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4F77D00","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F77D00","objectId":{"name":"obj_BattlePlayer","path":"objects/obj_BattlePlayer/obj_BattlePlayer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7E9CCEF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7E9CCEF8","objectId":{"name":"obj_BattleEnemy","path":"objects/obj_BattleEnemy/obj_BattleEnemy.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1024.0,"y":352.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"background_battle_placeholder","path":"sprites/background_battle_placeholder/background_battle_placeholder.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

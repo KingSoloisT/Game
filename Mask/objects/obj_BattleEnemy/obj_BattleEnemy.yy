@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_sword",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_BattleEnemy",
+  "eventList":[],
   "managed":true,
-  "name":"obj_button_sword",
+  "name":"obj_BattleEnemy",
   "overriddenProperties":[],
   "parent":{
     "name":"BattleScreenObjects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite_Button_Red",
-    "path":"sprites/Sprite_Button_Red/Sprite_Button_Red.yy",
+    "name":"spr_player",
+    "path":"sprites/spr_player/spr_player.yy",
   },
   "spriteMaskId":null,
   "visible":true,

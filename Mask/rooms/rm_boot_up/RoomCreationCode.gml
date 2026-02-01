@@ -1,3 +1,6 @@
+
+
+
 global.player1_atk_a = 1;
 global.player1_atk_b = 1;
 global.player1_def_a = 1;
@@ -42,6 +45,7 @@ global.player4_y = 600;
 
 //all
 global.turn = "player1"; //pl1-4 and e
+global.battle_enemy = "void"; //enemy or players
 
 //this is a test
 //FIXED ISSUE TESTING.
