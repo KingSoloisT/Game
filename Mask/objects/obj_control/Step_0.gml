@@ -1,11 +1,77 @@
+//move fix
+if global.turn == "player1"
+{
+	if movesup = 2
+	{
+		obj_player1.x -=0.5;
+		movesup = 0;
+	}
+
+	if movesdown = 2
+	{
+		obj_player1.x +=0.5;
+		movesdown = 0;
+	}
+}
+
+if global.turn == "player2"
+{
+	if movesup = 2
+	{
+		obj_player2.x -=0.5;
+		movesup = 0;
+	}
+
+	if movesdown = 2
+	{
+		obj_player2.x +=0.5;
+		movesdown = 0;
+	}
+}
+
+if global.turn == "player3"
+{
+	if movesup = 2
+	{
+		obj_player3.x -=0.5;
+		movesup = 0;
+	}
+
+	if movesdown = 2
+	{
+		obj_player3.x +=0.5;
+		movesdown = 0;
+	}
+}
+
+if global.turn == "player4"
+{
+	if movesup = 2
+	{
+		obj_player4.x -=0.5;
+		movesup = 0;
+	}
+
+	if movesdown = 2
+	{
+		obj_player4.x +=0.5;
+		movesdown = 0;
+	}
+}
+
+
 //movement
 if keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W")) 
 {
-	if global.turn = "player1" && place_empty(obj_player1.x - 114, obj_player1.y - 57) && global.player1_move > 0
+	
+	if global.turn == "player1" && global.player1_move > 0 && obj_player1.canmoveup = true
 	{
-		obj_player1.y -= 57;
-		obj_player1.x -= 114;
-		global.player1_move -= 1;
+			obj_player1.y -= 56;
+			obj_player1.x -= 111;
+			global.player1_move -= 1;
+			movesup ++;
+			
+		
 	}
 	
 	if global.turn = "player2" && global.player2_move > 0
@@ -37,11 +103,12 @@ if keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))
 
 if keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
 {
-		if global.turn = "player1" && global.player1_move > 0
+		if global.turn = "player1" && global.player1_move > 0 && obj_player1.canmovedown = true
 	{
-		obj_player1.y += 57;
-		obj_player1.x += 114;
+		obj_player1.y += 56;
+		obj_player1.x += 111;
 		global.player1_move -= 1;
+		movesdown ++;
 	}
 	
 		if global.turn = "player2" && global.player2_move > 0
@@ -68,10 +135,10 @@ if keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
 
 if keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"))
 {
-		if global.turn = "player1" && global.player1_move > 0
+		if global.turn = "player1" && global.player1_move > 0 && obj_player1.canmoveleft = true
 	{
-			obj_player1.y += 57;
-			obj_player1.x -= 114;
+			obj_player1.y += 56;
+			obj_player1.x -= 111;
 			global.player1_move -= 1;
 	}
 	
@@ -100,10 +167,10 @@ if keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"))
 
 if keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"))
 {
-		if global.turn = "player1" && global.player1_move > 0
+		if global.turn = "player1" && global.player1_move > 0 && obj_player1.canmoveright = true
 	{
-		obj_player1.y -= 57;
-		obj_player1.x += 114;
+		obj_player1.y -= 56;
+		obj_player1.x += 111;
 		global.player1_move -= 1;
 	}
 	
@@ -173,4 +240,26 @@ if global.turn = "player3"
 if global.turn = "player4"
 {	
 	camera_set_view_target(view_camera[0],obj_player4);
+}
+
+if global.turn = "enemy"
+{	
+	camera_set_view_target(view_camera[0],obj_enemy);
+}
+
+//enemy
+if global.turn = "enemy"
+{
+	//enemy_target = choose("player1","player2","player3","player4");
+	enemy_target = "player1"
+	global.turn = "enemymove"
+}
+
+if global.turn = "enemymove"
+{
+	if enemy_target = "player1"	
+	{
+		obj_enemy.y -= 56;
+		obj_enemy.x -= 111;
+	}
 }
