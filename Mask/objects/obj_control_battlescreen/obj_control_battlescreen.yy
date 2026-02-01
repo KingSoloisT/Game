@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_sword",
+  "%Name":"obj_control_battlescreen",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_sword",
+  "name":"obj_control_battlescreen",
   "overriddenProperties":[],
   "parent":{
-    "name":"BattleScreenObjects",
-    "path":"folders/BattleScreenStuff/BattleScreenObjects.yy",
+    "name":"BattleScreenStuff",
+    "path":"folders/BattleScreenStuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sprite_Button_Red",
-    "path":"sprites/Sprite_Button_Red/Sprite_Button_Red.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

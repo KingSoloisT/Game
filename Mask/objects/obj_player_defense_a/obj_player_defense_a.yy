@@ -9,8 +9,8 @@
   "name":"obj_player_defense_a",
   "overriddenProperties":[],
   "parent":{
-    "name":"BattleScreenStuff",
-    "path":"folders/BattleScreenStuff.yy",
+    "name":"BattleScreenObjects",
+    "path":"folders/BattleScreenStuff/BattleScreenObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
